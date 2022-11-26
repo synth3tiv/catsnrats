@@ -1,0 +1,26 @@
+* {
+  background-color: black;
+}
+button:hover {
+  cursor: pointer;
+}
+h1 {
+  color:blueviolet;
+}
+.cat_mode, .rat_mode{
+  height: 2000px;
+  position: absolute;
+  display: none;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+}
+#cat, #rat{
+  background-color: lightblue;
+  border-color: purple;
+  color: black;
+  font-size: xx-large;
+  padding: 5px;
+  text-align: center;
+  border-radius: 2px;
+}
